@@ -13,7 +13,10 @@
 -   **axios** + **tanstack/react-query**
 
     -   자동으로 데이터를 JSON으로 Parsing 해주고 브라우저 호환성을 위해 axios를 사용하고 , server data와 client data 상호 간의 최신 상태를 간편하게 유지하기 위해 tanstack query를 사용하였습니다.
-
+ 
+### ✅ Global Varaible
+- **recoil**
+    - 사용자의 그룹 입장에 대한 값만 저장해주면 됐기에 , 비교적 설정과 사용법이 복잡한 redux-toolkit을 사용하지 않았고 , zustand보단 recoil에 익숙했기 때문에 recoil을 사용하였습니다. 
 ---
 
 ### ✅ CSS
